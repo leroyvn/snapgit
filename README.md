@@ -13,7 +13,7 @@ The following packages are required:
 
 * Pip, pulling from this repo:
   ```
-  pip install git+https://github.com/leroyv/snapgit.git
+  pip install git+https://github.com/leroyvn/snapgit.git
   ```
 
 * From source, after cloning this repo:
