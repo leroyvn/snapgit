@@ -1,0 +1,8 @@
+name: snapgit
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pyyaml>=5.1
+  - click>=5.0
