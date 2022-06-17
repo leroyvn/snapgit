@@ -11,10 +11,22 @@ The following packages are required:
 
 ## Installation
 
-From the command line, run:
-```bash
-$ python setup.py install
-```
+* Pip, pulling from this repo:
+  ```
+  pip install git+https://github.com/leroyv/snapgit.git
+  ```
+
+* From source, after cloning this repo:
+  ```
+  pip install .
+  ```
+
+* In a Conda environment, for development, after cloning this repo:
+  ```
+  mamba env create --file environment.yml
+  conda activate snapgit
+  pip install --no-deps --editable .
+  ```
 
 ## Usage
 
@@ -22,13 +34,13 @@ $ python setup.py install
 
 To archive a repository, run:
 ```
-$ snapgit <url> -b <branch_or_tag>
+snapgit <url> -b <branch_or_tag>
 ```
 If the `-b` is not used, SnapGit defaults to `master`.
 
 To get help, run:
-```bash
-$ snapgit --help
+```
+snapgit --help
 ```
 
 ### Using a configuration file
