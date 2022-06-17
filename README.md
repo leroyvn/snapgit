@@ -11,6 +11,11 @@ The following packages are required:
 
 ## Installation
 
+* Pipx, pulling from this repo (recommended for users):
+  ```
+  pipx install git+https://github.com/leroyvn/snapgit.git
+  ```
+
 * Pip, pulling from this repo:
   ```
   pip install git+https://github.com/leroyvn/snapgit.git
